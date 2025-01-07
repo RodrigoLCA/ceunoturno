@@ -1,0 +1,19 @@
+{
+  "name": "project1",
+  "version": "0.0.1",
+  "description": "API de Funcionamento de Site Leilao Centavos",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch backend/server.js",
+    "start": "node server.js"
+  },
+  "author": "Rodrigo Lopes",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.3"
+  },
+  "keywords": []
+}
