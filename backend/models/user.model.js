@@ -27,7 +27,7 @@ const userSchema = new mongoose.Schema({
     timestamps: true,
 });
 
-/** Abaixo atribuiremos o modelo ao Schema, e lançaremos ele como objeto Star. */
+/** Abaixo atribuiremos o modelo ao Schema, e lançaremos ele como objeto User. */
 const User = mongoose.model('User', userSchema);
 
 export default User;
