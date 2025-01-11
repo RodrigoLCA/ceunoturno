@@ -12,11 +12,12 @@ const router = express.Router();
 // (ADMIN APENAS)
 router.post('/:id/block', UserSetBlock);
 
-// em breve /users/unblock
+// POST /users/unblock
 // de acordo com API (aguardando sprint)
 // será direcionado para a mesma rota.
 // o tratamento será feito no método UserSetBlock
 // (ADMIN APENAS)
+router.post('/:id/unblock', UserSetBlock);
 
 // GET /users:id
 // Obteremos informações sobre o usuario específico
